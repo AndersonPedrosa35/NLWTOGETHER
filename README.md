@@ -1,33 +1,30 @@
-# Getting Started with Create React App
+# Projeto LetmeAsk
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Esse projeto foi feito durante a NLWTogether, ocorreu durante o dia 20/06 até 27/06.
+É uma plataforma para perguntas e respostas, tendo uma interação com seu auditório.
+
+## Tecnologias
+- React :
+   React Router Dom
+   Context API
+- Firebase
+- Styled-Components
+- SCSS
 
 ## Available Scripts
 
-In the project directory, you can run:
+Para iniciar o projeto
 
 ### `yarn start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Execute yarn start para visualizar no navegador.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+Assim que abrir no navegador, crie uma sala com a autenticação de contas do google do Firebase, será direcionado para a pagina de nomear nome da sala, assim que colocar o nome, será direcionado para a sala de perguntas, assim que tiver perguntas você poderá interagir com 3 botões, um de check, para marcar como respondida a pergunta, um em focus, que foca a pergunta para mostrar que está sendo respondida, e o um de deletar, para excluir a pergunta.
 
 ### `yarn test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Os testes serão implementados, quando refatorar a aplicação e desenvolver em TDD, comitando sempre!
 
-### `yarn build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
 ### `yarn eject`
 
