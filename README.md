@@ -15,6 +15,8 @@ Esse projeto foi feito durante a NLWTogether, ocorreu durante o dia 20/06 até 2
 
 Para iniciar o projeto
 
+### `git checkout projetoSemCommit`
+
 ### `yarn start`
 
 Execute yarn start para visualizar no navegador.
