@@ -7,8 +7,10 @@ describe('render the Login form', () => {
     const { getByText, history } = renderWithRoute(<App />);
 
     history.push('/');
-    const linkElement = getByText(/sala/i);
-    expect(linkElement).toBeInTheDocument();
+    const salas = getByText(/salas/i);
+    const paragrapy = getByText(/ao-vivo/i)
+    expect(salas).toBeInTheDocument();
+    expect(paragrapy).toBeInTheDocument();
   });
 
   it('should renders a input type email', () => {
